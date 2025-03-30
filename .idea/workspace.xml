@@ -1,4 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PropertiesComponent">{}</component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="733b9aa3-8480-4bd2-8218-df1ab99c1471" name="Changes" comment="First Commit">
+      <change afterPath="$PROJECT_DIR$/backend/cmd/api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/configs/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/auth/domain/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/auth/repository/postgres/user_repository.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/auth/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/auth/transport/rest/auth_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/auth/transport/rest/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/book/domain/book.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/book/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/messages/domain/message.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/review/domain/review.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/transactions/domain/transaction.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/internal/users/domain/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/migrations/001_initial_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pkg/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/pkg/config/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.23.7.windows-amd64" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ex6linz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Ex6linz/BookSwap.git&quot;,
+    &quot;accountId&quot;: &quot;a2f0270a-8dad-4e74-abaa-cd6902ce0195&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2uztMoi9ztUekfS4PODRa1jA6SL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "last_opened_file_path": "D:/1.Projects/BookSwap/backend/internal/review",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1.Projects\BookSwap\backend\internal\review" />
+      <recent name="D:\1.Projects\BookSwap\backend\internal\users" />
+      <recent name="D:\1.Projects\BookSwap\backend\internal\transactions" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\1.Projects\BookSwap\backend\internal" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-3b128438d3f6-34ac7aa8f6ab-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.23774.117" />
+        <option value="bundled-js-predefined-d6986cc7102b-d159365566ee-JavaScript-GO-251.23774.117" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="733b9aa3-8480-4bd2-8218-df1ab99c1471" name="Changes" comment="" />
+      <created>1743263184340</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743263184340</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
 </project>
